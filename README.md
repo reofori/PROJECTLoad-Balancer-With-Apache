@@ -58,7 +58,7 @@ Ensure you have the following servers already installed and configured from the 
 
 ## Step 1 - Configure Apache as a Load Balancer
 
-1. Create an Ubuntu 20.04 EC2 instance and name it Project-8-apache-lb, and open TCP port 80 by creating an inbound rule in the security group for this instance.
+1. Create an Ubuntu 24.04 EC2 instance and name it Project-8-apache-lb, and open TCP port 80 by creating an inbound rule in the security group for this instance.
 
     ![image 1](images/image%203.jpg)
 
