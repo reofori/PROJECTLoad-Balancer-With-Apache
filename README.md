@@ -188,19 +188,20 @@ Ensure you have the following servers already installed and configured from the 
    ![image 1](images/image%206.jpg)
 
 
-# Tagrget Architecture
+# Tagget Architecture
 
 At this stage, your setup should look like this:
 
 1. Apache Load Balancer (Ubuntu 24.04 EC2 instance)
 
-2. Two Web Servers (RHEL8 EC2 instances)
+2. Two Web Servers (RHEL9 EC2 instances)
 
 3. One MySQL DB Server (Ubuntu 24.04 EC2 instance)
 
-4. One RHEL8 NFS Server (RHEL8 EC2 instance)
+4. One RHEL8 NFS Server (RHEL9 EC2 instance)
+   
 
-   ![image 1](images/image%208.jpg)
+
 
 
    ## CONGRATULATIONS!!!!!!! YOU HAVE JUST IMPLEMENTED A LOAD BALANCER SOLUTION WITH APACHE FOR YOUR DEVOPS TEAM.
