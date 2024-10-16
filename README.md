@@ -34,7 +34,7 @@ Let us take a look at the updated solution architecture with an LB added on top 
 
 ## Objective
 
-   ![image 1](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%201.jpg)
+   ![image 1](images/image%201.jpg)
 
 In this project, we will enhance our Tooling Website solution by adding an Apache Load Balancer to distribute traffic between two Web Servers. This will allow users to access our website using a single URL.
 
@@ -51,7 +51,8 @@ Ensure you have the following servers already installed and configured from the 
 2. One MySQL DB Server (Ubuntu 24.04)
 3. One RHEL8 NFS Server
 
-   ![image 2](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%202.jpg)
+   ![image 1](images/image%202.jpg)
+
 
 
 
@@ -59,7 +60,8 @@ Ensure you have the following servers already installed and configured from the 
 
 1. Create an Ubuntu 20.04 EC2 instance and name it Project-8-apache-lb, and open TCP port 80 by creating an inbound rule in the security group for this instance.
 
-   ![image 3](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%203.jpg)
+    ![image 1](images/image%203.jpg)
+
 
 2. Install Apache and Configure Load Balancer
 
@@ -117,7 +119,8 @@ Ensure you have the following servers already installed and configured from the 
    ```
    Replace and with the private IPs of your two RHEL8 web servers.
    
-   ![image 4](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%204.jpg)
+    ![image 1](images/image%204.jpg)
+
 
 4. Restart Apache to Apply Changes:
 
@@ -133,7 +136,8 @@ Ensure you have the following servers already installed and configured from the 
    http://<Load-Balancer-Public-IP>/index.php
    ```
 
-   ![image 5](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%205.jpg)
+ ![image 1](images/image%205.jpg)
+
 
 2. Open two SSH terminals, one for each Web Server, and run the following command to monitor the logs:
 
@@ -177,11 +181,11 @@ Ensure you have the following servers already installed and configured from the 
    sudo systemctl restart apache2
    ```
 
-   ![image 5](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%205.jpg)
+   ![image 1](images/image%205.jpg)
 
   You can also test if the names resolve correctly from the Load Balancer by using curl:
 
-   ![image 6](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%206.jpg)
+   ![image 1](images/image%206.jpg)
 
 
 # Tagrget Architecture
@@ -196,7 +200,7 @@ At this stage, your setup should look like this:
 
 4. One RHEL8 NFS Server (RHEL8 EC2 instance)
 
-   ![image 8](https://github.com/Captnfresh/Load-balancer-with-Apache/blob/main/Load%20balancer%20with%20Apache/image%208.png)
+   ![image 1](images/image%208.jpg)
 
 
    ## CONGRATULATIONS!!!!!!! YOU HAVE JUST IMPLEMENTED A LOAD BALANCER SOLUTION WITH APACHE FOR YOUR DEVOPS TEAM.
