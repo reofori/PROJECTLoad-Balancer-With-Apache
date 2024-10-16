@@ -3,6 +3,8 @@ Here’s a simpler breakdown of what a **load balancer** is, the concepts around
 ### What is a Load Balancer?
 A **load balancer** is like a traffic manager. Imagine cars trying to get onto a highway—if there’s only one lane, traffic jams happen, but if there are multiple lanes, cars can be directed to different lanes to keep things moving smoothly. A load balancer does the same thing with internet traffic by distributing it to different servers so that no single server gets overwhelmed.
 
+![image 1](images/loadb.gif)
+
 ### Basic Concepts of a Load Balancer:
 1. **Spreads the Traffic**: It sends traffic to multiple servers instead of just one.
 2. **Prevents Overload**: If one server gets too much traffic, it might crash; a load balancer avoids this by sharing the load.
@@ -30,6 +32,9 @@ There are two main types of load balancers: **L4** (Layer 4) and **L7** (Layer 7
 | **Speed**                 | Very fast, minimal checking                   | Slightly slower because it looks deeper       |
 | **Use Case**              | Simple, fast traffic distribution (good for speed-sensitive tasks) | Content-based routing (best for websites and apps) |
 | **Supports**              | TCP, UDP traffic (e.g., streaming, messaging) | HTTP/HTTPS traffic (websites, web apps)       |
+
+![image 1](images/lb1.jpg)
+
 
 In short:
 - **L4** is like a fast traffic cop directing cars (based only on road/lane info), while
